@@ -23,7 +23,7 @@
             $retorno = mysqli_query($conexao, $sql);
 
             if($retorno === true){
-                header("Location: login.html");
+                header("Location: index.html");
             }else{
                 header("Location: cadastroErro.html");
             }
