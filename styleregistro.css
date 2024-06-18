@@ -1,0 +1,117 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    background-image: url(../myshelf/img/Registro.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    color: white;
+}
+.caixa{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    border-radius: 15px;
+}
+a{
+    text-decoration: none;
+    color: #443028;
+}
+#login{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    color: #443028;
+}
+.email input{
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 60px;
+    border: none;
+    width: 200px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: rgb(44, 30, 28,0.8);
+    color: #FFFFFF;
+    margin-top: 15px;
+    font-size: 15px;
+}
+.senha input{
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 60px;
+    border: none;
+    width: 200px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: rgb(44, 30, 28,0.8);
+    color: #FFFFFF;
+    margin-top: 15px;
+    font-size: 15px;
+}
+.check-senha input{
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 60px;
+    border: none;
+    width: 200px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: rgb(44, 30, 28,0.8);
+    color: #FFFFFF;
+    margin-top: 15px;
+    font-size: 15px;
+}
+.nome input{
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 60px;
+    border: none;
+    width: 200px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: rgb(44, 30, 28,0.8);
+    color: #FFFFFF;
+    margin-top: 15px;
+    font-size: 15px;
+}
+.telefone input{
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 60px;
+    border: none;
+    width: 200px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: rgb(44, 30, 28,0.8);
+    color: #FFFFFF; 
+    margin-top: 15px;
+    font-size: 15px;
+}
+.entrar input{
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    width: 120px;
+    height: 40px;
+    border-radius: 60px;
+    border: none;
+    background-color: rgb(44, 30, 28,0.8);
+    color: #FFFFFF;
+    font-size: 15px;
+}
+.entrar input:hover{
+    width: 120px;
+    height: 40px;
+    border-radius: 60px;
+    border: none;
+    background-color: rgb(44, 30, 28,1);
+    background-position: 200%;
+}
+input::placeholder{
+    color: #FFFFFF;
+}
+.caixa{
+    margin-top: 35px;
+}
+#erro{
+    color: blueviolet;
+}
